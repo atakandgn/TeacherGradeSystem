@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+![HomePage](https://github.com/atakandgn/TeacherGradeSystem/assets/108396649/871bc0c0-3b0c-464f-89b3-9db0671e6193)
+# Teacher Grade System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Bu proje, öğretmenlerin giriş yapabildiği bir sınıf yönetim uygulamasını içermektedir. Proje, öğrenci notlarını ekleyebilen, düzenleyebilen ve listeleyebilen bir kullanıcı arayüzü sunmaktadır. Ayrıca, not eklerken öğrenci, ders ve not bilgilerini seçebilme özelliğini içermektedir.
 
-In the project directory, you can run:
+## Kurulum
 
-### `npm start`
+Proje dosyalarını indirin ve aşağıdaki adımları takip ederek projeyi başlatın.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Proje dizininde terminali açın.
+2. `npm install` komutunu kullanarak gerekli bağımlılıkları yükleyin.
+3. `npm start` komutunu kullanarak projeyi başlatın.
+4. Tarayıcınızda [http://localhost:3000](http://localhost:3000) adresini açarak uygulamayı görüntüleyin.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Kullanılan Teknolojiler
 
-### `npm test`
+- React
+- React Router
+- Material Tailwind CSS
+- React Hot Toast
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Modül Açıklamaları
 
-### `npm run build`
+### 1. Login
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Login](https://github.com/atakandgn/TeacherGradeSystem/assets/108396649/09a9cfee-d7bd-4220-ae49-6e0a246a89ef)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Giriş ekranı, öğretmenlerin sistemde oturum açmalarını sağlar. Kullanıcı adı ve şifre doğrulaması yaparak ana sayfaya yönlendirir.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 2. AddGrade
 
-### `npm run eject`
+![AddGrade](https://github.com/atakandgn/TeacherGradeSystem/assets/108396649/8322fe62-9841-4213-bdf3-cfb06567c5e1)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Bu modül, öğrencilere ders ve not eklemek için kullanılır. Öğrenci, ders ve not bilgilerini seçerek not ekleyebilir.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 3. ListGrade
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![ListGrade](https://github.com/atakandgn/TeacherGradeSystem/assets/108396649/2c934e48-cdbe-4db1-8048-8acabaaea17f)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+Öğrenci notlarını listeleyen modül. Notları isme, derslere veya notlara göre sıralayabilir ve düzenleyebilirsiniz. Her öğrencinin notları kartlar veya tablo şeklinde görüntülenebilir.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 4. Modal
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![EditModal](https://github.com/atakandgn/TeacherGradeSystem/assets/108396649/72a46309-0abd-4b5f-98cd-7f56e6b77c1d)
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Modal bileşeni, not eklemek veya düzenlemek için kullanıcıya bir pencere sunar. Ayrıca, notları silme işlemi için onay almak amacıyla kullanılır.
 
-### Analyzing the Bundle Size
+## Veri Saklama
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Kullanıcı girişi yaptığında öğretmen bilgileri tarayıcı yerel depolama kullanılarak saklanır. Bu bilgiler, tarayıcı kapatıldığında bile saklanır ve kullanıcı tekrar giriş yaptığında hatırlanır.
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Proje başarıyla başlatıldığında, öğretmenler not ekleyebilir, düzenleyebilir ve listeleyebilirler. Projede ilerlemek ve yeni özellikler eklemek için geliştirilmeye devam edilebilir.
 
-### Advanced Configuration
+## Sorularınız İçin
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Sorularınız veya geri bildirimleriniz için bana e-posta gönderebilirsiniz: [atakandogan.info@gmail.com](mailto:atakandogan.info@gmail.com)
