@@ -26,7 +26,7 @@ Proje dosyalarını indirin ve aşağıdaki adımları takip ederek projeyi baş
 
 ![Login](https://github.com/atakandgn/TeacherGradeSystem/assets/108396649/09a9cfee-d7bd-4220-ae49-6e0a246a89ef)
 
-Giriş ekranı, öğretmenlerin sistemde oturum açmalarını sağlar. Kullanıcı adı ve şifre doğrulaması yaparak ana sayfaya yönlendirir.
+Giriş ekranı, öğretmenlerin sistemde oturum açmalarını sağlar. Kullanıcı Id ve şifre doğrulaması yaparak ana sayfaya yönlendirir.
 
 ### 2. AddGrade
 
@@ -39,14 +39,14 @@ Bu modül, öğrencilere ders ve not eklemek için kullanılır. Öğrenci, ders
 ![ListGrade](https://github.com/atakandgn/TeacherGradeSystem/assets/108396649/2c934e48-cdbe-4db1-8048-8acabaaea17f)
 
 
-Öğrenci notlarını listeleyen modül. Notları isme, derslere veya notlara göre sıralayabilir ve düzenleyebilirsiniz. Her öğrencinin notları kartlar veya tablo şeklinde görüntülenebilir.
+Öğrenci notlarını listeleyen modül. Notları yüksekten alçağa göre sıralayabilir ve düzenleyebilirsiniz. Her öğrencinin notları kartlar veya tablo şeklinde görüntülenebilir.
 
 ### 4. Modal
 
 ![EditModal](https://github.com/atakandgn/TeacherGradeSystem/assets/108396649/72a46309-0abd-4b5f-98cd-7f56e6b77c1d)
 
 
-Modal bileşeni, not eklemek veya düzenlemek için kullanıcıya bir pencere sunar. Ayrıca, notları silme işlemi için onay almak amacıyla kullanılır.
+Modal bileşeni, düzenlemek için kullanıcıya bir pencere sunar. Ayrıca, notları silme işlemi için onay almak amacıyla kullanılır.
 
 ## Veri Saklama
 
